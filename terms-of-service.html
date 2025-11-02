@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Up Terms of Service</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.7;
+            color: #ffffff;
+            background: #0a0a0b;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #1a1a1c;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(255, 213, 77, 0.1);
+            overflow: hidden;
+            border: 1px solid rgba(255, 213, 77, 0.1);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #0a0a0b 0%, #1a1a1c 100%);
+            color: #FFD54D;
+            padding: 50px 40px;
+            text-align: center;
+            border-bottom: 2px solid #FFD54D;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            font-weight: 800;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+            color: #FFD54D;
+        }
+
+        .header .subtitle {
+            font-size: 1.1em;
+            opacity: 0.95;
+            font-weight: 500;
+            color: #ffffff;
+        }
+
+        .content {
+            padding: 50px 40px;
+        }
+
+        .last-updated {
+            background: rgba(255, 213, 77, 0.1);
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            font-size: 0.95em;
+            color: #FFD54D;
+            border-left: 4px solid #FFD54D;
+        }
+
+        .welcome-box {
+            background: linear-gradient(135deg, rgba(255, 213, 77, 0.15) 0%, rgba(255, 213, 77, 0.05) 100%);
+            color: #ffffff;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+            font-size: 1.05em;
+            border: 1px solid rgba(255, 213, 77, 0.3);
+        }
+
+        h2 {
+            color: #FFD54D;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        h3 {
+            color: #FFD54D;
+            font-size: 1.3em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: 600;
+            opacity: 0.9;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1.05em;
+            color: #e0e0e0;
+        }
+
+        ul, ol {
+            margin: 15px 0 15px 20px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+            color: #e0e0e0;
+        }
+
+        ul li:before {
+            content: "•";
+            color: #FFD54D;
+            font-weight: bold;
+            font-size: 1.5em;
+            position: absolute;
+            left: 0;
+            top: -5px;
+        }
+
+        ol li {
+            margin-bottom: 10px;
+            padding-left: 10px;
+            color: #e0e0e0;
+        }
+
+        ol li::marker {
+            color: #FFD54D;
+            font-weight: bold;
+        }
+
+        strong {
+            color: #FFD54D;
+            font-weight: 600;
+        }
+
+        .warning-box {
+            background: rgba(255, 213, 77, 0.15);
+            border-left: 4px solid #FFD54D;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 1px solid rgba(255, 213, 77, 0.3);
+        }
+
+        .warning-box strong {
+            color: #FFD54D;
+        }
+
+        .warning-box p {
+            color: #e0e0e0;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, rgba(255, 213, 77, 0.15) 0%, rgba(255, 213, 77, 0.05) 100%);
+            color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 40px;
+            text-align: center;
+            border: 1px solid rgba(255, 213, 77, 0.3);
+        }
+
+        .contact-box h2 {
+            color: #FFD54D;
+            margin-top: 0;
+        }
+
+        .contact-box a {
+            color: #FFD54D;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: 600;
+            border-bottom: 2px solid #FFD54D;
+            padding-bottom: 2px;
+            transition: opacity 0.3s;
+        }
+
+        .contact-box a:hover {
+            opacity: 0.7;
+        }
+
+        .contact-box p {
+            color: #e0e0e0;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid rgba(255, 213, 77, 0.2);
+            margin: 40px 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px auto;
+                border-radius: 15px;
+            }
+
+            .header {
+                padding: 40px 25px;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 30px 25px;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📋 Terms of Service</h1>
+            <div class="subtitle">Your agreement with T-Up</div>
+        </div>
+
+        <div class="content">
+            <div class="last-updated">
+                <strong>Last updated:</strong> November 2, 2025
+            </div>
+
+            <div class="welcome-box">
+                Welcome to T-Up — a mobile app created and operated by Arian Weinbaum. By downloading, accessing, or using the T-Up app (the "App"), you agree to these Terms of Service ("Terms"). Please read them carefully before using the App.
+            </div>
+
+            <hr>
+
+            <h2>1. Eligibility and Use</h2>
+            <p>T-Up is designed for adults aged 17 and older. By using the App, you confirm that you meet this age requirement.</p>
+            <p>You agree to use T-Up only for lawful, personal, and non-commercial purposes and in accordance with these Terms.</p>
+
+            <hr>
+
+            <h2>2. Health Disclaimer</h2>
+            <div class="warning-box">
+                <p><strong>T-Up provides educational and lifestyle guidance only. It is not a medical app and does not provide medical advice, diagnosis, or treatment.</strong></p>
+            </div>
+
+            <p>The T-Score estimator and all content within the App are for informational purposes only and should not replace professional medical advice. Always consult a qualified healthcare provider before making decisions about your health, exercise, diet, or hormone-related concerns.</p>
+
+            <p>If you experience any concerning symptoms, stop using the App and seek medical advice immediately. Use of T-Up does not create a doctor-patient relationship.</p>
+
+            <hr>
+
+            <h2>3. Accounts and Authentication</h2>
+            <p>To use certain features, you must create an account via Apple Sign-In, Google Sign-In, or email one-time password (OTP).</p>
+
+            <p>You agree to:</p>
+            <ul>
+                <li>Provide accurate and complete information</li>
+                <li>Maintain the security of your account credentials</li>
+                <li>Notify us immediately of any unauthorized access</li>
+            </ul>
+
+            <p>We may suspend or terminate access if fraudulent, abusive, or inappropriate activity is detected.</p>
+
+            <hr>
+
+            <h2>4. Subscriptions and Payments</h2>
+            <p>T-Up includes optional paid subscriptions managed through Apple's App Store using RevenueCat.</p>
+
+            <h3>Subscription Details</h3>
+            <ul>
+                <li>A <strong>7-day free trial</strong> is offered to new users</li>
+                <li>After the trial, full access costs <strong>$9.99/month</strong></li>
+                <li>Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period</li>
+                <li>Your account will be charged for renewal within 24 hours prior to the end of the current period</li>
+                <li>You will be charged $9.99/month after your 7-day free trial ends unless you cancel before the trial ends</li>
+            </ul>
+
+            <h3>Managing Subscriptions</h3>
+            <ul>
+                <li>You can manage or cancel your subscription anytime in App Store settings</li>
+                <li>If you cancel during the trial, you will not be charged</li>
+                <li>Cancellation takes effect at the end of the current billing period</li>
+            </ul>
+
+            <h3>Apple In-App Purchases</h3>
+            <p>All purchases are processed through Apple's In-App Purchase system and are subject to Apple's Terms of Sale. We do not have access to your payment information. Refund requests must be made through Apple according to their refund policies.</p>
+
+            <hr>
+
+            <h2>5. Data and Privacy</h2>
+            <p>Your personal data is handled in accordance with our <strong>Privacy Policy</strong>. By using T-Up, you consent to the collection and processing of your data as described there.</p>
+
+            <p>You can request to delete your account and associated data at any time by:</p>
+            <ul>
+                <li>Using the account deletion option in App settings, or</li>
+                <li>Contacting us at arianw02@gmail.com</li>
+            </ul>
+
+            <hr>
+
+            <h2>6. Intellectual Property and User Data</h2>
+
+            <h3>Our Content</h3>
+            <p>All content, branding, design, and features within T-Up are owned or licensed by Arian Weinbaum. You may not copy, modify, distribute, reverse-engineer, or create derivative works from any part of the App.</p>
+            <p>You are granted a limited, personal, non-transferable, revocable license to use the App for its intended purpose.</p>
+
+            <h3>Your Data</h3>
+            <p>The data you enter (questionnaire responses, check-ins, personal information) remains your property. By using T-Up, you grant us a limited license to process this data solely to provide app features. You retain all rights to your personal data and can export or delete it at any time.</p>
+
+            <hr>
+
+            <h2>7. Limitation of Liability</h2>
+            <p>T-Up is provided "as is" without warranties of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.</p>
+
+            <p>To the fullest extent permitted by law, Arian Weinbaum and T-Up are not liable for any indirect, incidental, consequential, special, or punitive damages resulting from:</p>
+            <ul>
+                <li>Your use of or inability to use the App</li>
+                <li>Any errors or omissions in the App's content</li>
+                <li>Unauthorized access to your data</li>
+                <li>Any health decisions made based on App content</li>
+            </ul>
+
+            <p>Use of the App is at your own discretion and risk. Your sole remedy for dissatisfaction with the App is to stop using it.</p>
+
+            <hr>
+
+            <h2>8. Termination</h2>
+
+            <h3>By Us</h3>
+            <p>We may suspend or terminate your access if you:</p>
+            <ul>
+                <li>Violate these Terms</li>
+                <li>Misuse the App or engage in fraudulent activity</li>
+                <li>Engage in behavior that harms other users or the App's integrity</li>
+            </ul>
+
+            <h3>By You</h3>
+            <p>You may terminate your account at any time by:</p>
+            <ol>
+                <li>Deleting your account through the App settings, or</li>
+                <li>Contacting support at arianw02@gmail.com</li>
+            </ol>
+
+            <p>Upon termination, your subscription will remain active until the end of the current billing period, but will not renew. Your data will be deleted in accordance with our Privacy Policy.</p>
+
+            <hr>
+
+            <h2>9. Governing Law and Dispute Resolution</h2>
+            <p>These Terms are governed by the laws of <strong>Israel</strong>, without regard to conflict of law principles.</p>
+
+            <p>Any disputes arising from or relating to these Terms or your use of the App will be resolved exclusively in the competent courts of <strong>Tel Aviv, Israel</strong>.</p>
+
+            <p>You agree to waive any objection to the jurisdiction or venue of these courts.</p>
+
+            <hr>
+
+            <h2>10. Changes to the Terms</h2>
+            <p>We may update these Terms periodically to reflect changes in the App, legal requirements, or operational practices.</p>
+
+            <p>Updates will be posted in the App and on our official website. The "Last updated" date will reflect the most recent revision.</p>
+
+            <p>If we make material changes, we will notify you in-app or via email at least 30 days before the changes take effect. Continued use of the App after such changes constitutes acceptance of the updated Terms.</p>
+
+            <hr>
+
+            <h2>11. Severability</h2>
+            <p>If any provision of these Terms is found to be unenforceable or invalid by a court of competent jurisdiction, that provision will be limited or eliminated to the minimum extent necessary so that the remaining Terms remain in full force and effect.</p>
+
+            <hr>
+
+            <h2>12. Entire Agreement</h2>
+            <p>These Terms, together with our Privacy Policy, constitute the entire agreement between you and Arian Weinbaum regarding your use of T-Up and supersede any prior agreements or understandings.</p>
+
+            <hr>
+
+            <div class="contact-box">
+                <h2>13. Contact</h2>
+                <p>If you have questions about these Terms or need assistance, contact:</p>
+                <p>📧 <a href="mailto:arianw02@gmail.com">arianw02@gmail.com</a></p>
+                <p style="margin-top: 20px; font-size: 0.95em;">We aim to respond to all inquiries within 48 hours during business days. For account deletion or urgent requests, please clearly state the nature of your request in the subject line.</p>
+                <p style="margin-top: 30px; opacity: 0.9;"><strong>Arian Weinbaum</strong><br>Israel</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
